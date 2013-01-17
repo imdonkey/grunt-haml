@@ -9,7 +9,7 @@ module.exports = function(grunt) {
   'use strict';
 
   var path = require('path');
-  var _    = grunt.util._;
+  var _    = grunt.utils._;
 
   grunt.registerMultiTask('haml', 'Compile Haml files', function() {
     var helpers = require('grunt-lib-contrib').init(grunt);
